@@ -1,0 +1,853 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta description="This is a portfolio of my major work. " />
+    <title>Eunji Park - Portfolio</title>
+    <link rel="icon" href="images/face.ico" />
+    <!-- google font embedding -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Rubik:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- CSS style sheets -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="http://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <!--------------------- Nav Bar--------------------------->
+      <div class="navbar-container nav-bar-portfolio">
+        <nav
+          class="navbar navbar-expand-lg fixed-top"
+          style="background-color: #fff"
+        >
+          <a class="navbar-brand" href="index.html">Home</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="aboutme.html"
+                  >About Me</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html#cta"
+                  >Contact</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#skills">Services</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="portfolio.html"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Portfolio
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="portfolio.html#web-development"
+                      >Websites</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="portfolio.html#graphics"
+                      >Graphic Design</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="portfolio.html#videos"
+                      >Motion Graphics</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!----------------- Title ------------------->
+
+    <section id="portfoliotitle">
+      <div class="container-fluid expand-lg big-box">
+        <div class="container-for-h1-p">
+          <img class="artwork4" src="images/artwork3.png" alt="dot art work" />
+
+          <h1 class="h1portfolio">Portfolio</h1>
+          <p class="intro-for-portfolio">
+            My work in web development, graphics, videos
+          </p>
+        </div>
+
+        <figure class="artwork-container">
+          <?xml version="1.0" encoding="UTF-8" ?>
+          <svg
+            id="artwork5"
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 123.64 115.72"
+          >
+            <path
+              d="M122.31,77.66c-.78,5.78-1.7,11.89-5.38,16.42-1.95,2.39-4.54,4.17-7.14,5.83-9.04,5.78-18.76,10.66-29.13,13.41-10.38,2.76-21.46,3.34-31.85,.64-7.03-1.83-13.59-5.09-19.97-8.56-4.62-2.51-9.23-5.19-12.97-8.9-3.54-3.52-6.17-7.86-8.44-12.31C3.04,75.62-.21,66.21,.01,56.59c.03-1.48,.15-2.95,.33-4.42,.02-.16,.04-.31,.06-.47,.61-4.61,1.83-9.13,3.07-13.64,.31-1.12,.63-2.24,.93-3.36,.13-.45,.25-.9,.37-1.35,.39-1.44,.76-2.9,1.16-4.34,.29-1.07,.59-2.14,.92-3.2,.74-2.38,1.59-4.73,2.75-6.94,.02-.04,.04-.08,.07-.12,0,0,.01-.03,.01-.04C13.93,10.63,21.85,4.79,30.57,2.06,35.5,.51,40.67-.11,45.84,.01c1.67,.03,3.34,.14,5,.32,2.35,.25,4.69,.65,6.99,1.16,.72,.16,1.45,.33,2.16,.51,1,.26,1.99,.52,2.98,.81,1.35,.38,2.69,.78,4.03,1.18,2.44,.74,4.87,1.49,7.33,2.15,5.54,1.5,11.19,2.58,16.64,4.37,4.48,1.47,8.8,3.43,12.87,5.82,3.27,1.92,6.17,4.23,9.21,6.43,2.68,1.95,5.33,4.28,6.4,7.53,1.43,4.35-.12,9.04,.93,13.47,1.06,4.49,2.36,8.95,2.93,13.55,.84,6.76-.08,13.6-1,20.35Z"
+              style="fill: #fab375"
+            />
+          </svg>
+
+          <?xml version="1.0" encoding="UTF-8" ?>
+          <svg
+            id="artwork6"
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 109.35 39.86"
+          >
+            <path
+              d="M22.11,20.34c.2-3.59,.43-7.51,2.85-10.17,1.52-1.67,3.71-2.59,5.93-3,1.96-.36,4.08-.34,5.82,.64,1.5,.85,2.54,2.31,3.53,3.73,1.47,2.12,2.95,4.29,3.77,6.74,.94,2.8,.97,5.82,1.69,8.68,1.06,4.18,3.57,7.96,4.11,12.24,.03,.22-23.37,.22-25.6-.02-3.99-.43-3.59-2.41-3.19-5.89,.5-4.31,.86-8.63,1.1-12.96Z"
+              style="fill: #7a3518"
+            />
+            <path
+              d="M54.03,12.27c.14-1.71,.29-3.45,.93-5.09,.93-2.37,2.9-4.46,5.47-5.78C62.07,.56,63.97,.01,65.9,0c4.19-.02,7.9,2.47,9.89,5.49s2.59,6.49,3.15,9.89c1.19,7.16,2.38,14.33,3.57,21.49-7.26,2.69-15.45,3.03-23.27,2.33-1.16-.1-3.61,0-4.59-.63-1.21-.77-.95-2.69-1.05-3.82-.34-3.57-.39-7.15-.29-10.72,.11-3.92,.41-7.83,.72-11.74Z"
+              style="fill: #7a3518"
+            />
+            <path
+              d="M87.1,27.74c.07-3.5,.17-7.11,1.57-10.32s4.46-5.96,7.97-5.9c2.11,.04,4.12,1.09,5.63,2.57s2.57,3.36,3.42,5.29c2.18,4.98,3.08,10.42,3.66,15.83,.15,1.41-14.68,2.49-16.13,2.49-1.77,0-5.49,.51-6.3-1.17-.45-.94,.07-3.32,.09-4.38l.09-4.4Z"
+              style="fill: #7a3518"
+            />
+            <path
+              d="M7.82,23.24c.88-1.33,1.91-2.71,3.41-3.26,2.41-.87,5.13,.87,6.26,3.17s1.07,4.98,.99,7.54c-.08,2.49-.15,4.97-.23,7.46,0,.32-.04,.67-.27,.89-.21,.19-.51,.21-.79,.21-3.27,.09-6.54,.19-9.81,.28-1.63,.05-6.72,1.12-7.33-.95-.48-1.64,2.6-6.3,3.36-7.79,1.32-2.59,2.76-5.15,4.41-7.55Z"
+              style="fill: #7a3518"
+            />
+          </svg>
+        </figure>
+      </div>
+    </section>
+
+    <main>
+      <svg
+        class="firstwave"
+        viewBox="0 -20 700 110"
+        width="100%"
+        height="110"
+        preserveAspectRatio="none"
+      >
+        <path
+          transform="translate(0, -20)"
+          d="M0,10 c80,-22 240,0 350,18 c90,17 260,7.5 350,-20 v50 h-700"
+          fill="#FAD3AF"
+        />
+        <path
+          d="M0,10 c80,-18 230,-12 350,7 c80,13 260,17 350,-5 v100 h-700z"
+          fill="#FAE5D2"
+        />
+      </svg>
+
+      <!-------------title section done ---------------->
+      <!--------------------web-development---------------->
+
+      <section id="web-development">
+        <div class="album py-5 white-section container-fluid">
+          <h1 class="webdevh1" data-aos="fade-up">NEXT.js</h1>
+          <div class="container">
+            <div
+              class="row row-cols-1 row-cols-lg-3 row-cols-sm-1 row-cols-md-2 g-4"
+            >
+              <div class="col">
+                <div
+                  class="card shadow-sm"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                >
+                  <img
+                    src="images/find_sushi_app.png"
+                    class="xylo-pic"
+                    alt="e-commerse_image"
+                    width="100%"
+                    height="360"
+                  />
+
+                  <div class="card-body">
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <h5>Find Sushi App</h5>
+                      <div class="btn-group">
+                        <a
+                          href="https://find-sushi-cyan.vercel.app/"
+                          target="_blank"
+                        >
+                          <button
+                            type="button"
+                            class="btn btn-sm btn-outline-secondary"
+                          >
+                            Visit the Website
+                          </button></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="web-development-react">
+        <div class="album py-5 white-section container-fluid">
+          <h1 class="webdevh1" data-aos="fade-up">
+            React.js, Hooks, State, Redux
+          </h1>
+          <div class="container">
+            <div
+              class="row row-cols-1 row-cols-lg-3 row-cols-sm-1 row-cols-md-2 g-4"
+            >
+              <div class="col">
+                <div class="card shadow-sm" data-aos="fade-up">
+                  <img
+                    src="images/crownclothing_carousel.png"
+                    class="xylo-pic"
+                    alt="e-commerse_image"
+                    width="100%"
+                    height="360"
+                  />
+
+                  <div class="card-body">
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <h5>Crown clothing</h5>
+                      <div class="btn-group">
+                        <a
+                          href="https://rad-chebakia-d9859b.netlify.app/"
+                          target="_blank"
+                        >
+                          <button
+                            type="button"
+                            class="btn btn-sm btn-outline-secondary"
+                          >
+                            Visit the Website
+                          </button></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--react--student addressbook-->
+              <div class="col">
+                <div
+                  class="card shadow-sm"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                >
+                  <img
+                    src="images/addressbook_carousel.png"
+                    class="xylo-pic"
+                    alt="studentaddress_image"
+                    width="100%"
+                    height="360"
+                  />
+
+                  <div class="card-body">
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <h5>Class Addressbook</h5>
+                      <div class="btn-group">
+                        <a
+                          href="https://studentaddressbook.vercel.app/"
+                          target="_blank"
+                        >
+                          <button
+                            type="button"
+                            class="btn btn-sm btn-outline-secondary"
+                          >
+                            Visit the Website
+                          </button></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div
+                  class="card shadow-sm"
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
+                >
+                  <img
+                    src="images/stickeynote_carousel.png"
+                    class="xylo-pic"
+                    alt="stickynote_image"
+                    width="100%"
+                    height="360"
+                  />
+
+                  <div class="card-body">
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <h5>Sticky Note App</h5>
+                      <div class="btn-group">
+                        <a
+                          href="https://sticky-note-five.vercel.app/"
+                          target="_blank"
+                        >
+                          <button
+                            type="button"
+                            class="btn btn-sm btn-outline-secondary"
+                          >
+                            Visit the Website
+                          </button></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="web-html-js">
+        <div class="album py-5 white-section container-fluid">
+          <h1 data-aos="fade-up" data-aos-duration="1000">HTML/CSS/JS</h1>
+          <div class="container">
+            <div
+              class="row row-cols-1 row-cols-lg-3 row-cols-sm-1 row-cols-md-2 g-4"
+            >
+              <!--for xylo app-->
+              <div class="col">
+                <div
+                  class="card shadow-sm"
+                  data-aos="flip-up"
+                  data-aos-duration="2000"
+                >
+                  <img
+                    src="images/xylo.png"
+                    class="xylo-pic"
+                    alt="xylophone_image"
+                    width="100%"
+                    height="360"
+                  />
+
+                  <div class="card-body">
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <h5>Xylophone App</h5>
+                      <div class="btn-group">
+                        <a
+                          href="https://triosdevelopers.com/~E.Park/xylophone/index.html"
+                          target="_blank"
+                          ><button
+                            type="button"
+                            class="btn btn-sm btn-outline-secondary"
+                          >
+                            Visit the Website
+                          </button></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- for dice app-->
+              <div class="col">
+                <div
+                  class="card shadow-sm"
+                  data-aos="zoom-in"
+                  data-aos-duration="2000"
+                >
+                  <img
+                    src="images/dice.png"
+                    class="xylo-pic"
+                    alt="dice"
+                    width="100%"
+                    height="360"
+                  />
+
+                  <div class="card-body">
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <h5>Dice App</h5>
+                      <div class="btn-group">
+                        <a
+                          href="https://triosdevelopers.com/~E.Park/Dice/dice.html"
+                          target="_blank"
+                        >
+                          <button
+                            type="button"
+                            class="btn btn-sm btn-outline-secondary"
+                          >
+                            Visit the Website
+                          </button></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--for Drum kit game-->
+              <div class="col">
+                <div
+                  class="card shadow-sm"
+                  data-aos="zoom-in-up"
+                  data-aos-duration="2000"
+                >
+                  <img
+                    src="images/drum.png"
+                    class="xylo-pic"
+                    alt="drum_image"
+                    width="100%"
+                    height="360"
+                  />
+
+                  <div class="card-body">
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <h5>Drumkit Game</h5>
+                      <div class="btn-group">
+                        <a
+                          href="https://triosdevelopers.com/~E.Park/drumgame/index.html"
+                          target="_blank"
+                        >
+                          <button
+                            type="button"
+                            class="btn btn-sm btn-outline-secondary"
+                          >
+                            Visit the Website
+                          </button></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="backend-development">
+        <div class="album py-5 white-section container-fluid">
+          <h1 class="webdevh1" data-aos="fade-up" data-aos-duration="1000">
+            Back-end Development
+          </h1>
+          <div class="container">
+            <div
+              class="row row-cols-1 row-cols-lg-3 row-cols-sm-1 row-cols-md-2 g-4"
+            >
+              <div class="col">
+                <div
+                  class="card shadow-sm"
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
+                >
+                  <img
+                    src="images/backend_carousel.png"
+                    class="xylo-pic"
+                    alt="backend_image"
+                    width="100%"
+                    height="360"
+                  />
+
+                  <div class="card-body">
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <h5>ASP.NET</h5>
+                      <div class="btn-group">
+                        <a
+                          href="https://epportfolio.azurewebsites.net/"
+                          target="_blank"
+                        >
+                          <button
+                            type="button"
+                            class="btn btn-sm btn-outline-secondary"
+                          >
+                            Visit the Website
+                          </button></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div
+                  class="card shadow-sm"
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
+                >
+                  <img
+                    src="images/phpsite.png"
+                    class="xylo-pic"
+                    alt="backend_image"
+                    width="100%"
+                    height="360"
+                  />
+
+                  <div class="card-body">
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <h5>PHP/mySQL</h5>
+                      <div class="btn-group">
+                        <a
+                          href="https://yourkoreancook.000webhostapp.com/index.php"
+                          target="_blank"
+                        >
+                          <button
+                            type="button"
+                            class="btn btn-sm btn-outline-secondary"
+                          >
+                            Visit the Website
+                          </button></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!------------------graphics ------------------------->
+
+      <section id="graphics">
+        <div class="album py-5 white-section container-fluid">
+          <h1 data-aos="fade-up" data-aos-duration="1000">Graphics</h1>
+
+          <div class="container">
+            <div
+              class="row row-cols-1 row-cols-lg-3 row-cols-sm-1 row-cols-md-2 g-4"
+            >
+              <div class="col">
+                <div
+                  class="card shadow-sm"
+                  data-aos="fade-up-left"
+                  data-aos-duration="3000"
+                >
+                  <img
+                    class="pepperburn-for-gd"
+                    src="images/retro.png"
+                    alt="pepper burn magazine cover"
+                  />
+
+                  <div class="card-body">
+                    <p class="card-text">Magazine Cover</p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div
+                  class="card shadow-sm logo"
+                  data-aos="flip-left"
+                  data-aos-duration="3000"
+                >
+                  <div class="logo">
+                    <img
+                      class="pepperburn-for-gd"
+                      src="images/pepper_burn.png"
+                      alt="pepper burn logo"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">Logo Design</p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div
+                  class="card shadow-sm"
+                  data-aos="fade-up-right"
+                  data-aos-duration="3000"
+                >
+                  <div class="logo">
+                    <img
+                      class="pepperburn-for-gd"
+                      src="images/pepperflame.png"
+                      alt="pepper flame logo"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">Logo Design</p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="btn-group"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-------------------videos------------------------->
+
+      <section id="videos">
+        <div class="album py-5 white-section container-fluid">
+          <h1 data-aos="fade-up" data-aos-duration="1000">
+            Motion Graphics and Videos
+          </h1>
+
+          <div class="container">
+            <div
+              class="row row-cols-1 row-cols-lg-3 row-cols-sm-1 row-cols-md-2 g-4"
+            >
+              <div class="col">
+                <div
+                  class="card shadow-sm"
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
+                >
+                  <div class="logo">
+                    <img
+                      class="pepperburn-for-gd"
+                      src="media/bookcover.gif"
+                      alt="animated bookcover"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">Book Cover Project</p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div
+                  class="card shadow-sm"
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
+                >
+                  <div class="logo">
+                    <img
+                      class="pepperburn-for-gd"
+                      src="media/iphone.gif"
+                      alt="iphone gif"
+                    />
+                  </div>
+
+                  <div class="card-body">
+                    <p class="card-text">Iphone Weather App</p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div
+                  class="card shadow-sm"
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
+                >
+                  <video
+                    controls="controls"
+                    loop="loop"
+                    class="pepperburn-for-gd"
+                  >
+                    <source
+                      src="media/popcontent.mp4#t=2.5"
+                      type="video/mp4"
+                      frameborder="0"
+                      allow="autoplay; fullscreen; picture-in-picture"
+                      allowfullscreen="allowfullscreen"
+                    />
+                  </video>
+                  <div class="card-body">
+                    <p class="card-text">
+                      Short video about my motion graphic skill.
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="btn-group"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div
+                  class="card shadow-sm"
+                  data-aos="fade-up"
+                  data-aos-duration="3000"
+                >
+                  <div class="logo">
+                    <img
+                      class="pepperburn-for-gd"
+                      src="media/welcometext.gif"
+                      alt="welcome text gif"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">A welcome gif</p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="btn-group"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div
+                  class="card shadow-sm"
+                  data-aos="fade-up"
+                  data-aos-duration="3000"
+                >
+                  <iframe
+                    class="pepperburn-for-gd"
+                    src="https://player.vimeo.com/video/441504566?h=81b11643b5"
+                    frameborder="0"
+                    allow="autoplay; fullscreen; picture-in-picture"
+                    allowfullscreen="allowfullscreen"
+                  ></iframe>
+
+                  <div class="card-body">
+                    <p class="card-text">
+                      A short video I created for a church
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div
+                  class="card shadow-sm"
+                  data-aos="fade-up"
+                  data-aos-duration="3000"
+                >
+                  <iframe
+                    class="pepperburn-for-gd"
+                    src="https://player.vimeo.com/video/421193603?h=f22283014c"
+                    frameborder="0"
+                    allow="autoplay; fullscreen; picture-in-picture"
+                    allowfullscreen="allowfullscreen"
+                  ></iframe>
+
+                  <div class="card-body">
+                    <p class="card-text">
+                      A short video I created for a church
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--------------------- Footer ------------------------->
+    <!-- Footer -->
+
+    <footer id="footer" class="white-section">
+      <div class="container-fluid">
+        <a class="footer-link" href="https://twitter.com/"
+          ><i class="social-icon fa-brands fa-twitter icon-for-footer"></i
+        ></a>
+        <a class="footer-link" href="https://facebook.com/"
+          ><i class="social-icon fa-brands fa-facebook icon-for-footer"></i
+        ></a>
+        <a class="footer-link" href="https://www.instagram.com/"
+          ><i class="social-icon fa-brands fa-instagram icon-for-footer"></i
+        ></a>
+        <a href="mailto:eunjiparkwebdev@gmail.com"
+          ><i class="social-icon fa-solid fa-envelope icon-for-footer"></i
+        ></a>
+
+        <p>© Copyright EunjiPark</p>
+      </div>
+    </footer>
+
+    <!-- fontawesome cnd -->
+    <script
+      src="https://kit.fontawesome.com/6e8f7432b7.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- boot strap script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+      integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- index script & jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="index.js" charset="utf-8"></script>
+    <script src="http://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({ startEvent: "DOMContentLoaded" });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,606 @@
+﻿<!DOCTYPE html>
+<html>
+  <!--<iframe style="width:200px;height:200px" src="you 2nd page url"></iframe>-->
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      description="This is a personal website for Eunji Park who is a web designer and a developer. "
+    />
+    <title>Eunji Park - a web designer</title>
+    <link rel="icon" href="images/face.ico" />
+    <!-- google font embedding -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Rubik:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS style sheets -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script defer src="app.js"></script>
+  </head>
+
+  <body>
+    <!--------------------- Nav Bar--------------------------->
+    <header>
+      <div class="navbar-container">
+        <nav
+          class="navbar navbar-expand-lg fixed-top"
+          style="background-color: #fff"
+        >
+          <a class="navbar-brand" href="index.html">Home</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="aboutme.html"
+                  >About Me</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#cta">Contact</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Services</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="portfolio.html"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Portfolio
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="portfolio.html#web-development"
+                      >Websites</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="portfolio.html#graphics"
+                      >Graphic Design</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="portfolio.html#videos"
+                      >Motion Graphics</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!----------------- Title ------------------->
+    <section id="title" class="colored-section">
+      <div class="container-fluid expand-lg title-container">
+        <div class="row">
+          <div class="col-lg-6 left-of-column animatedHeading">
+            <h1 class="title-heading animatedHeading hidden">
+              hello.<br />i'm <span class="auto-type"></span>
+            </h1>
+            <p class="intro animatedHeading hidden">
+              I’M AN ONTARIO BASED FRONT-END DEVELOPER WHO LOVES CREATING CLEAN
+              AND ELEGANT DESIGNS.
+            </p>
+
+            <button
+              type="button"
+              class="btn btn-light btn-lg download-button"
+              data-toggle="popover"
+              onclick="window.open('images/resume.pdf','popup'); return false;"
+            >
+              Resume
+            </button>
+          </div>
+          <div
+            class="col-lg-6 right-of-column"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+          >
+            <img
+              class="mypicture"
+              src="images/mypicture.png"
+              alt="eunji-photo"
+            />
+          </div>
+        </div>
+        <!-----------------------first svg image---------------------------------->
+
+        <svg
+          version="1.1"
+          id="artwork1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 502 693"
+          style="enable-background: new 0 0 502 693"
+        >
+          <path
+            class="st0"
+            d="M-86.24,127.84c-5.27,24.41-2.6,49.72-1.36,74.66c2.61,52.25-1.31,105.6-19.6,154.61
+	c-12.05,32.3-30.56,65.44-23.07,99.09c6.2,27.85,30.48,49.71,58.04,57.1c22.36,6,48.51,3.93,69.41-5.43
+	c24.62-11.02,44.49-26.47,72.72-27.84c68.3-3.3,93.48,59.59,140.59,93.79c17.42,12.65,39.64,18.53,61.04,16.14
+	c9.14-1.02,18.07-3.47,26.73-6.55c46.14-16.38,85.4-51.32,107.03-95.25c22.92-46.56,25.87-100.38,23.38-152.22
+	c-1.72-35.93-6.15-71.76-7.46-107.69c-1.31-35.97,6.84-72.02,0.72-107.84c-6.01-35.14-26.17-67.65-54.98-88.66
+	C323.32-0.05,256.93-1.43,205.68,9.12c-36.69,7.55-69.84,26.92-105.74,37.61c-20.76,6.18-42.27,9.42-63.69,12.63
+	c-25.92,3.89-59.04,3.24-83.45,13.12C-69.33,81.44-80.17,106.57-86.24,127.84z"
+          />
+          <path
+            class="st1"
+            d="M26.24,115.77c1.67-1.25,3.31-2.47,4.92-3.67C115.51,49.7,223.33-6.66,329.54,26.73
+	c33.8,10.63,65.59,30.21,86.75,59.07c23.18,31.6,32.11,71.98,33.49,111.4s-4.17,78.69-7.07,118.02
+	c-5.27,71.46-1.79,143.26,2.11,214.81c2.18,40.05,3.38,84-20.79,115.68c-25.07,32.87-69.96,42.08-110.83,42.44
+	c-40.02,0.35-81.02-5.86-116.03-25.6c-37.58-21.19-65.84-56.44-102.64-79.01c-33.19-20.36-71.65-29.44-108.69-41.04
+	c-23.28-7.29-47.78-16.85-61.61-37.26c-16.78-24.77-13.01-57.83-8.59-87.58c5.39-36.26,10.3-72.59,14.49-109.01
+	c3.53-30.75,0.92-70.72,11.63-99.69C-44.72,172.41-4.92,139.15,26.24,115.77z"
+          />
+        </svg>
+      </div>
+    </section>
+
+    <!--------------- Empty white section ---------------------->
+
+    <section id="empty-section" class="white-section">
+      <div class="container-fluid whitebox"></div>
+    </section>
+
+    <!---------------------------------- portfolio --------------------->
+
+    <section id="portfolio" class="white-section">
+      <div class="container-fluid expand-lg bigbox">
+        <svg
+          class="artwork2"
+          width="491"
+          height="952"
+          viewBox="0 0 491 952"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M149.089 627.141C107.086 569.769 37.8085 545.257 54.3058 476.093C70.0272 410.183 155.098 404.645 214.811 372.619C275.912 339.849 309.639 276.697 372.813 305.267C435.771 333.739 471.749 398.824 486.21 466.391C499.883 530.272 480.908 592.963 446.239 648.332C406.178 712.312 359.104 783.893 283.833 789.6C206.011 795.501 195.193 690.113 149.089 627.141Z"
+            stroke="#E8AE00"
+            stroke-width="2"
+          />
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M959.729 501.142C958.767 578.61 902.099 643.641 852.366 702.371C802.52 761.235 743.667 811.993 672.971 839.78C601.007 868.064 516.545 895.059 447.501 861.5C378.206 827.818 370.476 729.052 321.155 668.776C281.049 619.762 217.579 596.435 185.581 541.406C149.425 479.228 100.836 403.58 127.5 335.74C155.353 264.874 259.528 269.042 313.384 216.234C360.265 170.266 354.706 67.1511 417.39 51.4931C482.359 35.2644 529.107 118.848 589.45 147.275C633.446 168.001 682.028 171.575 724.159 196.01C774.033 224.936 821.727 256.523 857.328 302.638C903.347 362.245 960.68 424.515 959.729 501.142Z"
+            fill="#9F492D"
+          />
+        </svg>
+        <div class="row row-box">
+          <div
+            class="col-lg-6"
+            data-aos="fade-up"
+            data-aos-offset="300"
+            data-aos-duration="1000"
+          >
+            <div
+              id="testimonial-slide"
+              class="carousel carousel-dark slide"
+              data-bs-ride="false"
+            >
+              <div class="carousel-inner">
+                <!--e-commerse app -->
+                <div
+                  class="xylo-container active carousel-item container-fluid"
+                >
+                  <img
+                    class="xyloapp"
+                    src="images/crownclothing_carousel.png"
+                    alt="e-commerse_image"
+                  />
+                  <div class="middle">
+                    <a
+                      href="https://rad-chebakia-d9859b.netlify.app"
+                      target="_blank"
+                      ><button type="button" class="btn btn-dark btn-lg">
+                        E-commerse(React)
+                      </button></a
+                    >
+                  </div>
+                </div>
+
+                <!--addressbook app -->
+                <div class="xylo-container carousel-item container-fluid">
+                  <img
+                    class="xyloapp"
+                    src="images/addressbook_carousel.png"
+                    alt="addressbook_image"
+                  />
+                  <div class="middle">
+                    <a
+                      href="https://studentaddressbook.vercel.app/"
+                      target="_blank"
+                      ><button type="button" class="btn btn-dark btn-lg">
+                        Address Book(React)
+                      </button></a
+                    >
+                  </div>
+                </div>
+
+                <!--stickey note app -->
+                <div class="xylo-container carousel-item container-fluid">
+                  <img
+                    class="xyloapp"
+                    src="images/stickeynote_carousel.png"
+                    alt="stickynote_image"
+                  />
+                  <div class="middle">
+                    <a
+                      href="https://sticky-note-five.vercel.app/
+                      "
+                      target="_blank"
+                      ><button type="button" class="btn btn-dark btn-lg">
+                        Stickey Note(React)
+                      </button></a
+                    >
+                  </div>
+                </div>
+
+                <!--backend -->
+                <div class="xylo-container carousel-item container-fluid">
+                  <img
+                    class="xyloapp"
+                    src="images/backend_carousel.png"
+                    alt="backend_image"
+                  />
+                  <div class="middle">
+                    <a
+                      href="https://epportfolio.azurewebsites.net/
+
+                      "
+                      target="_blank"
+                      ><button type="button" class="btn btn-dark btn-lg">
+                        ASP.NET
+                      </button></a
+                    >
+                  </div>
+                </div>
+
+                <!--xylo app -->
+                <div class="xylo-container carousel-item container-fluid">
+                  <img class="xyloapp" src="images/xylo.png" alt="xylophone" />
+                  <div class="middle">
+                    <a
+                      href="https://triosdevelopers.com/~E.Park/xylophone/index.html"
+                      target="_blank"
+                      ><button type="button" class="btn btn-dark btn-lg">
+                        Xylophone App
+                      </button></a
+                    >
+                  </div>
+                </div>
+
+                <!--dice app-->
+                <div class="xylo-container carousel-item container-fluid">
+                  <img class="xyloapp" src="images/dice.png" alt="dice" />
+                  <div class="middle">
+                    <a
+                      href="https://triosdevelopers.com/~E.Park/dice/dice.html"
+                      target="_blank"
+                      ><button type="button" class="btn btn-dark btn-lg">
+                        Dice App
+                      </button></a
+                    >
+                  </div>
+                </div>
+
+                <!--drumkit app-->
+                <div class="xylo-container carousel-item container-fluid">
+                  <img class="xyloapp" src="images/drum.png" alt="drum" />
+                  <div class="middle">
+                    <a
+                      href="https://triosdevelopers.com/~E.Park/drumgame/index.html"
+                      target="_blank"
+                      ><button type="button" class="btn btn-dark btn-lg">
+                        Drum App
+                      </button></a
+                    >
+                  </div>
+                </div>
+
+                <!--logo graphic -->
+                <div class="carousel-item container-fluid">
+                  <img
+                    class="logo-pepperburn"
+                    src="images/pepper_burn.png"
+                    alt="pepper-logo"
+                  />
+                </div>
+                <!--pepper magazine cover -->
+                <div class="carousel-item container-fluid">
+                  <img
+                    class="magazine-cover"
+                    src="images/retro.png"
+                    alt="magazine-cover"
+                  />
+                </div>
+              </div>
+
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#testimonial-slide"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#testimonial-slide"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <!-- <h2 class="h2portfolio">Portfolio</h2> -->
+            <svg
+              height="100"
+              stroke="#0F2236"
+              stroke-width="2"
+              class="hidden1"
+              width="100%"
+            >
+              <text
+                x="50%"
+                dominant-baseline="middle"
+                text-anchor="middle"
+                y="50%"
+                class="animatedPortfolio"
+              >
+                Portfolio
+              </text>
+            </svg>
+            <p
+              class="caption"
+              data-aos="fade-up"
+              data-aos-offset="200"
+              data-aos-duration="1000"
+            >
+              My work in design and development
+            </p>
+            <a href="portfolio.html"
+              ><button
+                type="button"
+                class="btn btn-dark btn-lg download-button"
+                data-aos="flip-down"
+              >
+                My Work
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- skills -->
+
+    <section id="skills" class="colored-section">
+      <div class="container-fluid expand-lg">
+        <div class="row skillset">
+          <div class="col-lg-4 skills-column skillset hidden">
+            <i class="fa-sharp fa-solid fa-palette fa-4x icon"></i>
+            <h3 class="h3skills">Web Design</h3>
+            <p class="p-skills">
+              Desiring something elegant but simple to attract your customers? I
+              can help.
+            </p>
+          </div>
+
+          <div class="col-lg-4 skills-column skillset hidden">
+            <i class="fa-sharp fa-solid fa-laptop-code fa-4x icon"></i>
+            <h3 class="h3skills">Web Development</h3>
+            <p class="p-skills">
+              From designing to executing your website, I'm your girl!
+            </p>
+          </div>
+
+          <div class="col-lg-4 skills-column skillset hidden">
+            <i class="fa-sharp fa-solid fa-wand-magic-sparkles fa-4x icon"></i>
+            <h3 class="h3skills">Motion Graphics</h3>
+            <p class="p-skills">
+              Want your graphics to come alive? Let's talk!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--------------------------- Survey Section----------------------->
+
+    <section id="survey">
+      <div>
+        <div>
+          <svg
+            id="artwork3"
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 421.29 665.25"
+          >
+            <path
+              d="M378.97,454.79c-35.43,28.07-62.08-.26-120.26,22.85-94.24,37.43-78.91,133.46-166.11,172.69-27.64,12.44-60.49,16.88-92.48,14.14V164.42c11.58,2.94,17.62,7.83,38.87,9.06,68.91,3.97,95.63-42.24,150.85-53.65,66-13.64,143.84,28.37,186.9,85.64,2.05,2.72,4.02,5.47,5.9,8.25,53.28,78.74,50.91,197.86-3.67,241.07Z"
+              style="fill: #99530b"
+            />
+            <path
+              d="M376.74,205.47c-2.45,25.91-7.48,51.52-16.1,76.05-13.57,38.6-36.37,74.48-68.34,100.01-11.87,9.48-24.87,17.46-38.04,25.02-8.52,4.89-17.23,9.66-26.63,12.54-12.02,3.71-24.79,4.22-37.37,4.19-65.3-.13-130.48-14.31-190.14-40.85V105.02c6.04-4.82,12.07-9.65,18.1-14.47,24.51-19.59,48.87-40.33,74.19-59.08C116.6,13.55,141.84,2.61,171.96,.69c33.17-2.13,66.17,2.37,99.34,3.09,20.41,.44,42.16,1.3,58.85,13.06,11.37,8.02,19.02,20.26,25.16,32.74,8.63,17.55,14.89,36.26,18.56,55.47,3.5,18.32,4.64,37.02,4.76,55.68,.1,14.91-.46,29.87-1.88,44.74Z"
+              style="
+                fill: #e8ae00;
+                stroke: #e8ae00;
+                stroke-miterlimit: 10;
+                stroke-width: 0.25px;
+              "
+            />
+          </svg>
+        </div>
+        <div class="container-fluid surveyh3">
+          <main class="form-signin w-100 m-auto">
+            <h3 class="cta-heading" data-aos="fade-up">
+              Sign up to My Newsletter!
+            </h3>
+            <form id="myForm">
+              <!-- <a href="survey.html"
+            ><button type="button" class="btn btn-dark btn-lg download-button"> -->
+
+              <!-- </button></a
+          > -->
+              <div class="form-floating" data-aos="fade-up">
+                <input
+                  type="text"
+                  name="firstName"
+                  class="form-control top"
+                  placeholder="Your First Name"
+                  required
+                />
+                <label for="firstname">Your First Name</label>
+              </div>
+              <div class="form-floating" data-aos="fade-up">
+                <input
+                  type="text"
+                  name="lastName"
+                  class="form-control top"
+                  placeholder="Your Last Name"
+                  required
+                />
+                <label for="firstname">Your Last Name</label>
+              </div>
+
+              <div class="form-floating" data-aos="fade-up">
+                <input
+                  type="email"
+                  name="emailAddress"
+                  class="form-control bottom"
+                  placeholder="email address"
+                  required
+                />
+                <label for="email">Email Address</label>
+              </div>
+
+              <button
+                type="submit"
+                class="btn btn-dark btn-lg download-button signUp-button"
+                data-aos="fade-up"
+              >
+                Sign Me Up!
+              </button>
+            </form>
+          </main>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+
+    <section id="cta" class="colored-section-cta">
+      <div class="container-fluid-cta">
+        <h3 class="cta-heading" data-aos="fade-up" data-aos-offset="100">
+          Talk to your new gloriously fabulous designer today
+        </h3>
+        <a href="mailto:eunjipark19840925@gmail.com"
+          ><button
+            type="button"
+            class="btn btn-light btn-lg email-button"
+            data-aos="fade-up"
+          >
+            <i class="fa-solid fa-envelope"></i> Email me
+          </button></a
+        >
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer id="footer" class="white-section">
+      <div class="container-fluid">
+        <a class="footer-link" href="https://twitter.com/"
+          ><i class="social-icon fa-brands fa-twitter icon-for-footer"></i
+        ></a>
+        <a class="footer-link" href="https://facebook.com/"
+          ><i class="social-icon fa-brands fa-facebook icon-for-footer"></i
+        ></a>
+        <a class="footer-link" href="https://www.instagram.com/"
+          ><i class="social-icon fa-brands fa-instagram icon-for-footer"></i
+        ></a>
+        <a href="mailto:eunjiparkwebdev@gmail.com"
+          ><i class="social-icon fa-solid fa-envelope icon-for-footer"></i
+        ></a>
+
+        <p>© Copyright EunjiPark</p>
+      </div>
+    </footer>
+    <!-- fontawesome cnd -->
+    <script
+      src="https://kit.fontawesome.com/6e8f7432b7.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- boot strap script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+      integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="index.js" charset="utf-8"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="http://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({ startEvent: "DOMContentLoaded" });
+    </script>
+  </body>
+</html>
